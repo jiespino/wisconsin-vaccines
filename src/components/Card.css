@@ -1,0 +1,42 @@
+#cardContainer {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 10px auto;
+    align-items: left;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.hideAppt {
+    display: none;
+}
+
+p {
+    margin: 7px;
+}
+
+#buttonContainer {
+    text-align: center;
+}
+
+.button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #3366cc;
+    color: white;
+    padding: 6px 100px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 25px;
+  }
+
+  .apptTime {
+      margin: 5px;
+  }

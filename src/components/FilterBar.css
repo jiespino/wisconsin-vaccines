@@ -1,0 +1,27 @@
+.filterbarContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: 20px auto;
+}
+select, label {
+    display:block;
+}
+label {
+    text-align: center;
+}
+select {
+    width: 150px;
+}
+
+#resetButton {
+    margin: auto;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #0099cc;
+    color: white;
+}
+#resetButtonContainer {
+    text-align: center;
+    margin-top: 20px;
+}
